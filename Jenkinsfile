@@ -10,19 +10,13 @@ pipeline {
         stage('test1') {
             steps {
                 sh 'python --version'
-            }
-            steps {
                 sh 'pwd'
             }
         }
         stage('test2') {
             steps {
                 sh 'python --version'
-            }
-            steps {
                 sh 'whoami'
-            }
-            steps {
                 sh 'id'
             }
         }
